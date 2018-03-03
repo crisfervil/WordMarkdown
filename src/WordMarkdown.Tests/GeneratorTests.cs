@@ -14,8 +14,10 @@ namespace WordMarkdown.Tests
 
             var generator = new WordMarkdown.Generator();
             var actualJson = generator.GetJSon(fileName);
+            actualJson = actualJson.Replace("\r", "");
 
             var expectedJson = File.ReadAllText(epectedJsonFileName);
+            expectedJson = expectedJson.Replace("\r","");
             Assert.Equal(expectedJson, actualJson);
         }
     }
