@@ -16,7 +16,7 @@ namespace WordMarkdown.Tests
             var actualJson = generator.GetJSon(fileName);
 
             var expectedJson = File.ReadAllText(epectedJsonFileName);
-            Assert.Equal(expectedJson,actualJson);
+            Assert.Equal(expectedJson, actualJson);
         }
     }
 }
