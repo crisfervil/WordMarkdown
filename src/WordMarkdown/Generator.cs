@@ -1,16 +1,14 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using DocumentFormat.OpenXml;
-using Newtonsoft.Json;
-using DocumentFormat.OpenXml.Wordprocessing;
-using DocumentFormat.OpenXml.Packaging;
 
 namespace WordMarkdown
 {
-    public class WordMarkdown
+    public class Generator
     {
         public string GetJSon(string fileName)
         {

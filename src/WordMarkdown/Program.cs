@@ -23,7 +23,7 @@ namespace WordMarkdown
             var outputFileName = args.Length > 1 ? args[1] : null;
             outputFileName = string.IsNullOrEmpty(outputFileName) ? $"{inputFileName}.json" : outputFileName;
 
-            var md = new WordMarkdown();
+            var md = new Generator();
             var jsonData = md.GetJSon(inputFileName);
             File.WriteAllText(outputFileName, jsonData);
         }

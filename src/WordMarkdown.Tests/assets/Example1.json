@@ -1,0 +1,85 @@
+﻿{
+  "Data Model": {
+    "Entities": {
+      "Account": {
+        "Name": "Contact",
+        "Plural Name": "Contacts",
+        "Description": "Persons of Contact for Customers",
+        "Attributes": [
+          [
+            {
+              "Name": "Attribute 1",
+              "Description": "",
+              "Type": "",
+              "Required": "",
+              "Options": ""
+            },
+            {
+              "Name": "Primary Contact",
+              "Description": "",
+              "Type": "Lookup",
+              "Required": "Business Required",
+              "Options": [
+                [
+                  {
+                    "Value": "123123",
+                    "Description": "Value1"
+                  },
+                  {
+                    "Value": "234234",
+                    "Description": "Value2"
+                  }
+                ]
+              ]
+            },
+            {
+              "Name": "Value",
+              "Description": "Description",
+              "Type": ""
+            },
+            {
+              "Name": "123123",
+              "Description": "Value1",
+              "Type": ""
+            },
+            {
+              "Name": "234234",
+              "Description": "Value2",
+              "Type": ""
+            },
+            {
+              "Name": "Attr3",
+              "Description": "",
+              "Type": "",
+              "Required": "",
+              "Options": ""
+            }
+          ]
+        ],
+        "Relationships": [
+          {
+            "Name": "Relationship1",
+            "Description": "Relates this to that",
+            "What Else": "Relates also that"
+          },
+          {
+            "Name": "Relationship2",
+            "Description": "Relates this entity to that other entity",
+            "What Else": "And this is the description"
+          }
+        ]
+      },
+      "Contact": null,
+      "Phone Call": {
+        "Name": "Relationship1",
+        "Description": "Relates this to that",
+        "What Else": "Relates also that",
+        "Phone Call": {
+          "Another thing": null
+        }
+      }
+    },
+    "Yet another stuff": null,
+    "Even More": null
+  }
+}
