@@ -9,6 +9,6 @@
     "Name": "Process 2",
     "Description": "Generates a notification and Sends an Email to the owner of the record",
     "Type": "Asynchronous Workflow",
-    "Special Conditions": "Execute only on Mondays. Also the tables can contain any format, BreaklinesOr even images. "
+    "Special Conditions": "Execute only on Mondays. Also the tables can contain any format, Line BrakesOr even images. "
   }
 ]
