@@ -25,7 +25,7 @@ Using a couple of Word features; tables and paragraph outlines, we are able to s
 
 Json is a standard format that is easily readable and processed by any program, to generate code or perform any other automated activities. 
 
-Let's see some examples. Say for example the following table in a Microsoft Word document:
+Let's see some examples. Say we have the following table in a Microsoft Word document:
 
 ![Example 1](doc/Table1.png)
 
@@ -100,7 +100,7 @@ The above will generate the following output:
 
 These are all very simple examples, and in real life things get more complicated. But it is a beginning and a work in progress. 
 
-I see this as a tool to close the gap between Business Analysts and Developers, where all the hard work made by former can be more effectively reutilized, without asking them to learn new tools or programming languages. We can all work in the tools we already know very well; Office tools for Business people, and programming languages for developers. 
+I see this as a tool to close the gap between Business Analysts and Developers, where all the hard work made by former can be more effectively reutilized, without asking them to learn new tools or programming languages. We can all work in the tools we already know well; Office tools for Business people, and programming languages for developers. 
 
 TBC
 
