@@ -60,12 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="assets\Example1.docx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="assets\Example1.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="assets\Example1.docx" />
+    <None Include="assets\Example1.json" />
+    <None Include="assets\Example2.docx" />
+    <None Include="assets\Example2.json" />
+    <None Include="assets\Example3.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

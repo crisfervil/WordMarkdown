@@ -1,0 +1,11 @@
+﻿{
+  "Business Requirements": {
+    "Data Model": {
+      "Entities": {
+        "Accounts": null,
+        "Contacts": null,
+        "Leads": null
+      }
+    }
+  }
+}

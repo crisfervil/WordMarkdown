@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "Process 1",
+    "Description": "Generates a notification and Sends an Email to the owner of the record",
+    "Type": "Workflow",
+    "Special Conditions": "Execute only on Mondays"
+  }
+]
