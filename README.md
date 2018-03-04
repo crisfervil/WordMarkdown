@@ -64,3 +64,33 @@ The generated Json would be:
   }
 ]
 ```
+That's cool, but how can I combine this and the paragraph outlines?
+
+The paragraph outlines are a style property availabe in Microsoft Word that lets you organize any document in chapters and sub chapters. You can explore the sections using the Navigation Panel.
+
+![Example 3](doc/Table3.png)
+
+```json
+{
+  "Introduction": null,
+  "Data Model": {
+    "Tables": {
+      "Customers": {
+        "Type": "Custom Table",
+        "Description": "Stores information about Customers",
+        "Main Attribute": "Name",
+        "Access Restricted": "Yes"
+      }
+    }
+  },
+  "Workflows": {
+    "Notifications": {
+      "Process 1": {
+        "Description": "Generates a notification and Sends an Email to the owner of the record",
+        "Type": "Workflow",
+        "Special Conditions": "Execute only on Mondays"
+      }
+    }
+  }
+}
+```

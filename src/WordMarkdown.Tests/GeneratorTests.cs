@@ -65,5 +65,20 @@ namespace WordMarkdown.Tests
             expectedJson = expectedJson.Replace("\r", "");
             Assert.Equal(expectedJson, actualJson);
         }
+
+        [Fact]
+        public void Generates_JSon_For_Example5()
+        {
+            var expectedJsonFileName = "..\\..\\assets\\Example5.json";
+            var fileName = "..\\..\\assets\\Example5.docx";
+
+            var generator = new WordMarkdown.Generator();
+            var actualJson = generator.GetJSon(fileName);
+            actualJson = actualJson.Replace("\r", "");
+
+            var expectedJson = File.ReadAllText(expectedJsonFileName);
+            expectedJson = expectedJson.Replace("\r", "");
+            Assert.Equal(expectedJson, actualJson);
+        }
     }
 }

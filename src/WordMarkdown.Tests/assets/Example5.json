@@ -1,0 +1,22 @@
+{
+  "Introduction": null,
+  "Data Model": {
+    "Tables": {
+      "Customers": {
+        "Type": "Custom Table",
+        "Description": "Stores information about Customers",
+        "Main Attribute": "Name",
+        "Access Restricted": "Yes"
+      }
+    }
+  },
+  "Workflows": {
+    "Notifications": {
+      "Process 1": {
+        "Description": "Generates a notification and Sends an Email to the owner of the record",
+        "Type": "Workflow",
+        "Special Conditions": "Execute only on Mondays"
+      }
+    }
+  }
+}
