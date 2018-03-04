@@ -1,7 +1,7 @@
 [![Windows Build](https://ci.appveyor.com/api/projects/status/github/crisfervil/wordmarkdown?svg=true)](https://ci.appveyor.com/project/crisfervil/wordmarkdown)
 
 # WordMarkdown
-Converts Specifications written in Microsoft Word to a Json file
+Converts Specifications written in Microsoft Word into a Json file
 
 # Description
 
