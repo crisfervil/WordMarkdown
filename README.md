@@ -25,7 +25,7 @@ Using a couple of Word features; tables and paragraph outlines, we are able to s
 
 Json is a standard format that is easily readable and processed by any program, to generate code or perform any other automated activities. 
 
-Let's see some examples. Say for example the following table:
+Let's see some examples. Say for example the following table in a Microsoft Word document:
 
 ![Example 1](doc/Table1.png)
 
@@ -42,7 +42,7 @@ By running WordMarkdown I can extract that information and get the following Jso
 ] 
 ```
 
-But that's too simple. Let's make it more complicated. What If I have now several tables like the previous one, one after the other. We can include also formatting and images.
+But that's too simple. Let's make it more complicated. What If I have now several tables like the previous one, one after the other? Can I also include formatting and images?
 What would I get?
 
 ![Example 2](doc/Table2.png)
@@ -65,9 +65,9 @@ The generated Json would be:
   }
 ]
 ```
-That's cool, but how can I combine this and the paragraph outlines?
+That's cool, but how can I combine this and the **paragraph outlines**?
 
-The paragraph outlines are a style property available in Microsoft Word that lets you organize any document in chapters and sub chapters. You can explore the sections using the Navigation Panel.
+The paragraph outlines are a style property available in Microsoft Word that lets you organize your document in chapters and sub chapters. You can explore the sections using the Navigation Panel.
 
 ![Example 3](doc/Table3.png)
 
