@@ -23,13 +23,13 @@ That is exactly the goal of WordMarkdown.
 
 Using a couple of Word features; tables and paragraph outlines, we are able to structure the information in a way that can be converted into a Json document. 
 
-The Json format is a standard format that is easily readable and processed by any program, to generate code or perform any other automated activities. 
+Json is a standard format that is easily readable and processed by any program, to generate code or perform any other automated activities. 
 
 Let's see some examples. Say for example the following table:
 
 ![Example 1](doc/Table1.png)
 
-By running WordMarkdown aI can extract that information and get the following Json
+By running WordMarkdown I can extract that information and get the following Json:
 
 ``` json
 [
@@ -48,6 +48,7 @@ What would I get?
 ![Example 2](doc/Table2.png)
 
 The generated Json would be:
+
 ``` json
 [
   {
@@ -69,6 +70,8 @@ That's cool, but how can I combine this and the paragraph outlines?
 The paragraph outlines are a style property available in Microsoft Word that lets you organize any document in chapters and sub chapters. You can explore the sections using the Navigation Panel.
 
 ![Example 3](doc/Table3.png)
+
+The above will generate the following output:
 
 ```json
 {
@@ -94,6 +97,7 @@ The paragraph outlines are a style property available in Microsoft Word that let
   }
 }
 ```
+
 These are all very simple examples, and in real life things get more complicated. But it is a beginning and a work in progress. 
 
 I see this as a tool to close the gap between Business Analysts and Developers, where all the hard work made by former can be more effectively reutilized, without asking them to learn new tools or programming languages. We can all work in the tools we already know very well; Office tools for Business people, and programming languages for developers. 
